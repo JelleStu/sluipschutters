@@ -10,15 +10,17 @@ public class MainActivity extends AppCompatActivity {
     Button bt;
     Button btstinkbek;
     Button bthoerenpaard;
+    Button btTikTikTakkie;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bt = (Button) findViewById(R.id.btnHeeHitler);
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.heehitler);
-        bt.setOnClickListener(new View.OnClickListener(){
+        bt.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 mp.start();
             }
         });
@@ -26,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
         btstinkbek = (Button) findViewById(R.id.btnStinkBek);
         final MediaPlayer mp3 = MediaPlayer.create(this, R.raw.stinkbek);
-        btstinkbek.setOnClickListener(new View.OnClickListener(){
+        btstinkbek.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 mp3.start();
 
             }
@@ -36,11 +38,21 @@ public class MainActivity extends AppCompatActivity {
 
         bthoerenpaard = (Button) findViewById(R.id.btnHoerenPaard);
         final MediaPlayer mp4 = MediaPlayer.create(this, R.raw.hoerenpaard);
-        bthoerenpaard.setOnClickListener(new View.OnClickListener(){
+        bthoerenpaard.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 mp4.start();
-                // only change for push
+
+            }
+        });
+
+        btTikTikTakkie = (Button) findViewById(R.id.btnTikTakkie);
+        final MediaPlayer mptiktakkie = MediaPlayer.create(this, R.raw.tiktakkie);
+        btTikTikTakkie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mptiktakkie.start();
+
             }
         });
     }

@@ -45,6 +45,16 @@
                 android:layout_marginBottom="5dp"
                 />
 
+            <Button
+                android:id="@+id/btnTikTakkie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tik tik takkie"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

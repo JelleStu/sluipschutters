@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button bt;
+    Button bthitler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 mp.start();
+            }
+        });
+
+        bthitler = (Button) findViewById(R.id.btnHeeHitler);
+        final MediaPlayer mp2 = MediaPlayer.create(this, R.raw.heehitler);
+        bthitler.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                mp2.start();
             }
         });
     }

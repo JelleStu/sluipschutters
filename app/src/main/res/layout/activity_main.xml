@@ -16,10 +16,19 @@
             android:orientation="vertical" >
 
             <Button
-                android:id="@+id/btnViezeVuile"
+                android:id="@+id/btnHeeHitler"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Vieze vuile ****"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorLightBlue"
+                android:text="Hee Hitler"
+                android:textColor="#fafafa" />
+
+            <Button
+                android:id="@+id/btnStinkBek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snel een beetje met je"
                 android:textColor="#fafafa"
                 android:background="@color/colorBlue"
                 android:layout_marginTop="5dp"
@@ -27,21 +36,12 @@
                 />
 
             <Button
-                android:id="@+id/btnHeeHitler"
+                android:id="@+id/btnHoerenPaard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:background="@color/colorLightBlue"
-                android:text="Hee Hitler"
-                android:textColor="#fafafa" />
-
-            <Button
-                android:id="@+id/btnMaritGeneukt"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Marit gen**kt"
+                android:text="Lekker op je paard gereden"
                 android:textColor="#fafafa"
-                android:background="@color/colorBlue"
+                android:background="@color/colorLightBlue"
                 android:layout_marginBottom="5dp"
                 />
 

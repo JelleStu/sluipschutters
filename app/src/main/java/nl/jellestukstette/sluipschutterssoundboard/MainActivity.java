@@ -20,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
     Button btNee1;
     Button btNee2;
     Button btGodverdomme;
+    Button btJezusChristus;
+    Button btLachMedewerker;
+    Button btGekkigheidOpEenStokje;
+    Button btHardePikWijn;
+    Button btSlappePik;
+    Button btEnJePikBlijftHard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -149,6 +155,66 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mpGodverdomme.start();
+
+            }
+        });
+
+        btJezusChristus = (Button) findViewById(R.id.btnJezusChristus);
+        final MediaPlayer mpJezusChristus = MediaPlayer.create(this, R.raw.jezuscrhistus);
+        btJezusChristus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpJezusChristus.start();
+
+            }
+        });
+
+        btLachMedewerker = (Button) findViewById(R.id.btnLachMedewerker);
+        final MediaPlayer mpLachVerkoop = MediaPlayer.create(this, R.raw.lachwijnverkoper);
+        btLachMedewerker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpLachVerkoop.start();
+
+            }
+        });
+
+        btGekkigheidOpEenStokje = (Button) findViewById(R.id.btnGekkigheidOpeenStokje);
+        final MediaPlayer mpGekkigHeid = MediaPlayer.create(this, R.raw.gekkigheidopeenstokje);
+        btGekkigheidOpEenStokje.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpGekkigHeid.start();
+
+            }
+        });
+
+        btHardePikWijn = (Button) findViewById(R.id.btnHardePikWijn);
+        final MediaPlayer mpHardePikWijn = MediaPlayer.create(this, R.raw.pikhardwijn);
+        btHardePikWijn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpHardePikWijn.start();
+
+            }
+        });
+
+        btSlappePik = (Button) findViewById(R.id.btnSlappePik);
+        final MediaPlayer mpSlappePik = MediaPlayer.create(this, R.raw.slappepik);
+        btSlappePik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpSlappePik.start();
+
+            }
+        });
+
+        btEnJePikBlijftHard = (Button) findViewById(R.id.btnEnJePik);
+        final MediaPlayer mpEnJePikBlijftHard = MediaPlayer.create(this, R.raw.jepikblijfthard);
+        btSlappePik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpEnJePikBlijftHard.start();
 
             }
         });

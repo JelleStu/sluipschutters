@@ -143,6 +143,66 @@
                 android:background="@color/colorLightBlue"
                 android:layout_marginBottom="5dp"
                 />
+
+            <Button
+                android:id="@+id/btnJezusChristus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jezus Christus"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnLachMedewerker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lach Verkoper"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnGekkigheidOpeenStokje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alle gekkigheid op een stokje"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnHardePikWijn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eentje Waar je"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnSlappePik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ik krijg altijd een"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnEnJePik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En je pik blijft hard"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

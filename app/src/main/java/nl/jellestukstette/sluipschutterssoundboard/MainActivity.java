@@ -11,6 +11,15 @@ public class MainActivity extends AppCompatActivity {
     Button btstinkbek;
     Button bthoerenpaard;
     Button btTikTikTakkie;
+    Button btZagIkNietAankomen;
+    Button btPornoKijken;
+    Button btDikkePik;
+    Button btMjaa;
+    Button btIetsVragen;
+    Button btDikkeHoer;
+    Button btNee1;
+    Button btNee2;
+    Button btGodverdomme;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +61,94 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mptiktakkie.start();
+
+            }
+        });
+
+        btZagIkNietAankomen = (Button) findViewById(R.id.btnZagIkNietAankomen);
+        final MediaPlayer mpzagiknietaankomen = MediaPlayer.create(this, R.raw.diezagiknietaankomen);
+        btZagIkNietAankomen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpzagiknietaankomen.start();
+
+            }
+        });
+
+        btPornoKijken = (Button) findViewById(R.id.btnPornoKijken);
+        final MediaPlayer mpPornokijken = MediaPlayer.create(this, R.raw.eerlijkzeggenaftrekken);
+        btPornoKijken.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpPornokijken.start();
+
+            }
+        });
+
+        btDikkePik = (Button) findViewById(R.id.btnGrotePik);
+        final MediaPlayer mpThee = MediaPlayer.create(this, R.raw.dikkepikin);
+        btDikkePik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpThee.start();
+
+            }
+        });
+
+        btMjaa = (Button) findViewById(R.id.btnJaa);
+        final MediaPlayer mpJaa = MediaPlayer.create(this, R.raw.ja);
+        btMjaa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpJaa.start();
+
+            }
+        });
+        btIetsVragen = (Button) findViewById(R.id.btnIetsVragen);
+        final MediaPlayer mpVragen = MediaPlayer.create(this, R.raw.magikjouietsvragen);
+        btIetsVragen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpVragen.start();
+
+            }
+        });
+        btDikkeHoer = (Button) findViewById(R.id.btnDikkeHoer);
+        final MediaPlayer mpDikkeHoer = MediaPlayer.create(this, R.raw.dikkehoer);
+        btDikkeHoer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpDikkeHoer.start();
+
+            }
+        });
+
+        btNee1 = (Button) findViewById(R.id.btnNee1);
+        final MediaPlayer mpNee1 = MediaPlayer.create(this, R.raw.nee1);
+        btNee1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpNee1.start();
+
+            }
+        });
+
+        btNee2 = (Button) findViewById(R.id.btnNee2);
+        final MediaPlayer mpNee2 = MediaPlayer.create(this, R.raw.nee2);
+        btNee2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpNee2.start();
+
+            }
+        });
+
+        btGodverdomme = (Button) findViewById(R.id.btnGodverdomme);
+        final MediaPlayer mpGodverdomme = MediaPlayer.create(this, R.raw.Godverdomme);
+        btGodverdomme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpGodverdomme.start();
 
             }
         });

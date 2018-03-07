@@ -55,6 +55,94 @@
                 android:layout_marginBottom="5dp"
                 />
 
+            <Button
+                android:id="@+id/btnZagIkNietAankomen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Die zag ik niet aankomen"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnPornoKijken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Je kan het wel eerlijk zeggen"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+            <Button
+                android:id="@+id/btnGrotePik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welke thee?"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnJaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ja?"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnIetsVragen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mag ik jou iets vragen?"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnDikkeHoer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vieze vuile dikke h**r"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnNee1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nee (1)"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnNee2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nee (2)"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnGodverdomme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Godverdomme"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

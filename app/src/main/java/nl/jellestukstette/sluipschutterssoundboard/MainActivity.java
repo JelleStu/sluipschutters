@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity {
 
         btEnJePikBlijftHard = (Button) findViewById(R.id.btnEnJePik);
         final MediaPlayer mpEnJePikBlijftHard = MediaPlayer.create(this, R.raw.jepikblijfthard);
-        btSlappePik.setOnClickListener(new View.OnClickListener() {
+        btEnJePikBlijftHard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mpEnJePikBlijftHard.start();

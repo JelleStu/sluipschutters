@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btGodverdomme = (Button) findViewById(R.id.btnGodverdomme);
-        final MediaPlayer mpGodverdomme = MediaPlayer.create(this, R.raw.Godverdomme);
+        final MediaPlayer mpGodverdomme = MediaPlayer.create(this, R.raw.godverdomme);
         btGodverdomme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -203,6 +203,36 @@
                 android:background="@color/colorLightBlue"
                 android:layout_marginBottom="5dp"
                 />
+
+            <Button
+                android:id="@+id/btnSommigeVindenHetGay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sommige mensen vinden het gay"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnTweeMannenGeslachtsdeel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Twee mannen die elkaars geslachtsdeel"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnDatVindIkGay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dat vind ik gay"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

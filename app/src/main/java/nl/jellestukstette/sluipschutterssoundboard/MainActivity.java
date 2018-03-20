@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
     Button btHardePikWijn;
     Button btSlappePik;
     Button btEnJePikBlijftHard;
-
+    Button btSommigeMensenVindenHetGay;
+    Button btTweeMannenDieElkaarsGeslachtsdeel;
+    Button btDatVindIkGay;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -215,6 +217,36 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mpEnJePikBlijftHard.start();
+
+            }
+        });
+
+        btSommigeMensenVindenHetGay = (Button) findViewById(R.id.btnSommigeVindenHetGay);
+        final MediaPlayer mpSommigeVindGay = MediaPlayer.create(this, R.raw.sommigemensenvindenhetgay);
+        btSommigeMensenVindenHetGay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpSommigeVindGay.start();
+
+            }
+        });
+
+        btTweeMannenDieElkaarsGeslachtsdeel = (Button) findViewById(R.id.btnTweeMannenGeslachtsdeel);
+        final MediaPlayer mpTweeMannenGeslachtsdeel = MediaPlayer.create(this, R.raw.tweemannendieelkaars);
+        btTweeMannenDieElkaarsGeslachtsdeel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpTweeMannenGeslachtsdeel.start();
+
+            }
+        });
+
+        btDatVindIkGay = (Button) findViewById(R.id.btnDatVindIkGay);
+        final MediaPlayer mpDatVindIkGay = MediaPlayer.create(this, R.raw.datvindikgay);
+        btDatVindIkGay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpDatVindIkGay.start();
 
             }
         });

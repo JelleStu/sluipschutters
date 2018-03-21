@@ -233,6 +233,36 @@
                 android:background="@color/colorBlue"
                 android:layout_marginBottom="5dp"
                 />
+            <Button
+                android:id="@+id/btnGadverdamme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gadverdamme"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnVindIkLekker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dat vind ik lekker"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <Button
+                android:id="@+id/btnFockJouAuwe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fock jou"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

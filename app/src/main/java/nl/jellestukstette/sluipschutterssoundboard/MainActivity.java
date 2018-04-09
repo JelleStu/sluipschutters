@@ -32,6 +32,16 @@ public class MainActivity extends AppCompatActivity {
     Button btGadverdamme;
     Button btVindIkLekker;
     Button btFockJou;
+    Button btHoeWeetJeWaarIkWoon;
+    Button btEyManWtfG;
+    Button btPrijsDeHeer;
+    Button btDatisGrappig;
+    Button btHeyGWtf;
+    Button btSerieusG;
+    Button btDikkeTaartenG;
+    Button btNaHoeHugWie;
+    Button btSidneyJa;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -283,5 +293,87 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        btHoeWeetJeWaarIkWoon = (Button) findViewById(R.id.btnHoeWeetJeWaarIkWoon);
+        final MediaPlayer mpHoeWeetJeWaarIkWoon = MediaPlayer.create(this, R.raw.hoeweetjewaarikwoon);
+        btHoeWeetJeWaarIkWoon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpHoeWeetJeWaarIkWoon.start();
+
+            }
+        });
+        btEyManWtfG = (Button) findViewById(R.id.btnEyWtfG);
+        final MediaPlayer mpWtfG = MediaPlayer.create(this, R.raw.eymanwtfg);
+        btEyManWtfG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpWtfG.start();
+
+            }
+        });
+
+        btPrijsDeHeer = (Button) findViewById(R.id.btnPrijsDeHeer);
+        final MediaPlayer mpPrijsDeHeer = MediaPlayer.create(this, R.raw.prijsdeheersmokewatmeer);
+        btPrijsDeHeer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpPrijsDeHeer.start();
+
+            }
+        });
+
+        btDatisGrappig = (Button) findViewById(R.id.btnEyDasGrappig);
+        final MediaPlayer mpDatIsGrappig = MediaPlayer.create(this, R.raw.eydatisgrappig);
+        btDatisGrappig.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpDatIsGrappig.start();
+
+            }
+        });
+
+        btSerieusG = (Button) findViewById(R.id.btnSerieusG);
+        final MediaPlayer mpSerieusG = MediaPlayer.create(this, R.raw.serieusg);
+        btSerieusG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpSerieusG.start();
+
+            }
+        });
+
+        btDikkeTaartenG = (Button) findViewById(R.id.btnDikkeTaarten);
+        final MediaPlayer mpDikkeTaarte = MediaPlayer.create(this, R.raw.dikketaartenhey);
+        btDikkeTaartenG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpDikkeTaarte.start();
+
+            }
+        });
+
+        btNaHoeHugWie = (Button) findViewById(R.id.btnSidneyHug);
+        final MediaPlayer mpSidneyHug = MediaPlayer.create(this, R.raw.nahoehugwie);
+        btNaHoeHugWie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpSidneyHug.start();
+
+            }
+        });
+
+        btSidneyJa = (Button) findViewById(R.id.btnSidneyJa);
+        final MediaPlayer mpSidneyJa = MediaPlayer.create(this, R.raw.jaa);
+        btSidneyJa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mpSidneyJa.start();
+
+            }
+        });
+
+
+
     }
 }

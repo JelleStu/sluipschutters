@@ -263,6 +263,86 @@
                 android:background="@color/colorLightBlue"
                 android:layout_marginBottom="5dp"
                 />
+
+            <Button
+                android:id="@+id/btnHoeWeetJeWaarIkWoon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hoe weeet je waar ik woon"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnEyWtfG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ey man what the fack g"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnPrijsDeHeer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prijs de heer"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+            <Button
+                android:id="@+id/btnEyDasGrappig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ey das grappig"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnSerieusG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serieus G?"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnDikkeTaarten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dikke taarte"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnSidneyHug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nahoehugwoe"
+                android:textColor="#fafafa"
+                android:background="@color/colorBlue"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnSidneyJa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sidney Ja"
+                android:textColor="#fafafa"
+                android:background="@color/colorLightBlue1"
+                android:layout_marginBottom="5dp"
+                />
+
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

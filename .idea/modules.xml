@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Jelle\StudioProjects\sluipschuttersApp\app\app.iml" filepath="C:\Users\Jelle\StudioProjects\sluipschuttersApp\app\app.iml" />
-      <module fileurl="file://D:\androidProjects\sluipschuttersSoundboard\sluipschuttersApp.iml" filepath="D:\androidProjects\sluipschuttersSoundboard\sluipschuttersApp.iml" />
+      <module fileurl="file://$USER_HOME$/StudioProjects/sluipschuttersApp/app/app.iml" filepath="$USER_HOME$/StudioProjects/sluipschuttersApp/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sluipschuttersApp.iml" filepath="$PROJECT_DIR$/sluipschuttersApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/sluipschuttersSoundboard.iml" filepath="$PROJECT_DIR$/sluipschuttersSoundboard.iml" />
-      <module fileurl="file://C:\Users\Jelle\StudioProjects\sluipschuttersApp\sluipschuttersSoundboard.iml" filepath="C:\Users\Jelle\StudioProjects\sluipschuttersApp\sluipschuttersSoundboard.iml" />
+      <module fileurl="file://$USER_HOME$/StudioProjects/sluipschuttersApp/sluipschuttersSoundboard.iml" filepath="$USER_HOME$/StudioProjects/sluipschuttersApp/sluipschuttersSoundboard.iml" />
     </modules>
   </component>
 </project>
